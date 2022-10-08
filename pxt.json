@@ -1,0 +1,49 @@
+{
+    "name": "Escape From Earth!",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "pxt-countup": "github:shakao/pxt-countup#v0.0.2",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "custom-game-over": "github:shakao/custom-game-over#v0.0.4",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.3.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.10.36",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#efd0ae",
+        "#f6d937",
+        "#f8a153",
+        "#ef6361",
+        "#c7555e",
+        "#501733",
+        "#71323c",
+        "#975e5e",
+        "#755b6c",
+        "#808faa",
+        "#c4bbb8",
+        "#74a8a2",
+        "#186f5e",
+        "#46a45f",
+        "#88af92"
+    ]
+}
